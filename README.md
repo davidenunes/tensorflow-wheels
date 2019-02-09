@@ -1,10 +1,10 @@
 # Tensorflow Wheels
 Tensorflow wheels I've been building and using over time.
 
-| TF | HW |Python | CUDA | cuDNN | XLA | OS | Download |
+| TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
-| 1.13.0rc1 |GPU|   3.6  | 10.0 |  7.4  | yes | Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0rc1.xla/tensorflow-1.13.0rc1-cp36-cp36m-linux_x86_64.whl)|
-| 1.13.0rc1 |GPU|   3.6  | 10.0 |  7.4  | no | Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0rc1/tensorflow-1.13.0rc1-cp36-cp36m-linux_x86_64.whl)|
+| 1.13.0rc1 |GPU|   3.6  | 10.0 |  7.4  | XLA | Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0rc1.xla/tensorflow-1.13.0rc1-cp36-cp36m-linux_x86_64.whl)|
+| 1.13.0rc1 |GPU|   3.6  | 10.0 |  7.4  |  | Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0rc1/tensorflow-1.13.0rc1-cp36-cp36m-linux_x86_64.whl)|
 
 
 ## Need a different build?
