@@ -14,7 +14,7 @@ I'm using this as a repository of TF wheels I'll be using in various projects, i
 
 You can also drop me a line at [@davidelnunes](https://twitter.com/davidelnunes)
 
-## Buy me a coffee, coffee is the best!
+## Donating? Coffee is the best!
 If you find any of these useful, let me know in the respective issue, or consider buying me a coffee, coffee is great!
 <br/><br/>
 <a href="https://www.buymeacoffee.com/davidenunes" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
