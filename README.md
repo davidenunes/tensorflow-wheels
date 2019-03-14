@@ -22,4 +22,4 @@ You can also drop me a line at [@davidelnunes](https://twitter.com/davidelnunes)
 ## Donating? Coffee is the best!
 If you find any of these useful, let me know in the respective issue, or consider buying me a coffee, coffee is great!
 <br/><br/>
-<a href='https://ko-fi.com/Y8Y0RZO6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt=https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html'Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/Y8Y0RZO6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
