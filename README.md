@@ -1,5 +1,5 @@
 # Tensorflow Wheels
-Tensorflow wheels I've been building and using over time. Unless specified, these are for skylake CPUs.
+Tensorflow wheels I've been building and using over time. Unless specified, these are for skylake CPUs or equivalent instruction sets.
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
