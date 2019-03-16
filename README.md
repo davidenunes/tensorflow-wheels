@@ -11,6 +11,12 @@ Tensorflow wheels I've been building and using over time.
 | 1.13.0 |CPU|   3.7  | _ |  _ | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.12.0 |GPU|   3.6  | 10.0 |  7.4  | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.12.0.cp36/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
 
+## Other builds
+
+| TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
+|:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
+| 1.13.1 |CPU / amdfam10 |   3.6  |_| _ | _ | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp36.cpu.amdfam10/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
+
 
 ## Using Arch Linux?
 This is a rolling distro, so you might be tempted to always upgrade everything (nvidia drivers, linux kernel, etc). One thing to take into account is that different CUDA versions have different nvidia driver requirements (and certain driver versions depend on specific kernel versions). Before upgrading the kernel or drivers, consider checking the CUDA toolkit release notes: https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
