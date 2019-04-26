@@ -16,6 +16,7 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
 | 1.13.1 |CPU / amdfam10 |   3.6  |_| _ | _ | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp36.cpu.amdfam10/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
+| 1.13.1 |CPU / skylake-512 |   3.7  | _ | _ | AVX2, FMA, AVX512F | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp37.cpu.skylake-512/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
 
 
 ## Using Arch Linux?
