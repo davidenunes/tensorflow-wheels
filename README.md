@@ -29,6 +29,6 @@ I'm using this as a repository of TF wheels I'll be using in various projects, i
 You can also drop me a line at [@davidelnunes](https://twitter.com/davidelnunes)
 
 ## Get me some coffee. Coffee is the best!
-If you find any of this useful, let me know (if you want to), or, consider buying me a coffee, coffee is great!
+If you find any of this useful, let me know (if you want to), or, consider getting me some coffee, coffee is great!
 <br/><br/>
 <a href='https://ko-fi.com/Y8Y0RZO6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
