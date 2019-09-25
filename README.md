@@ -13,7 +13,7 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 | 1.13.0 |CPU|   3.7  | _ |  _ | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.12.0 |GPU|   3.6  | 10.0 |  7.4  | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.12.0.cp36/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
 
-## Other builds
+## Other platforms
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
