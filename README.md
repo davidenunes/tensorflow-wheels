@@ -3,6 +3,9 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
+| 2.0rc2 |GPU|   3.7  |10.1| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0rc2.cp37.gpu.xla/tensorflow-2.0.0rc2-cp37-cp37m-linux_x86_64.whl)|
+
+
 | 1.14 |GPU|   3.7  |10.0| 7.4 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.14.cp37.gpu.xla/tensorflow-1.14.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.13.1 |GPU|   3.7  |10.0| 7.4 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp37.gpu.xla/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
 | 1.13.1 |CPU|   3.6  |_| _ | _ | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp36.cpu/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
