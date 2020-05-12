@@ -21,12 +21,13 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 | 1.13.0 |CPU|   3.7  | _ |  _ | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.12.0 |GPU|   3.6  | 10.0 |  7.4  | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.12.0.cp36/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
 
-## Other platforms
+## Other builds
 
 
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
+| 2.2 |GPU CUDA Compute 5.0 |   3.8  | 10.2 | 7.6 | SSE, AVX, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu.cuda5/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
 | 2.1 |CPU / amdfam10 |   3.7  | _ | _ | SSE, AVX, FMA, XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.cpu.amdfam10/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.14.1 |CPU / amdfam10 |   3.6  |_| _ | XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.14.1.cp36.cpu.amdfam10/tensorflow-1.14.1-cp36-cp36m-linux_x86_64.whl)|
 | 1.13.1 |CPU / amdfam10 |   3.6  |_| _ | _ | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp36.cpu.amdfam10/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
