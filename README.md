@@ -1,5 +1,5 @@
 # Tensorflow Wheels
-Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets.
+Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets. Most builds have a minimum of CUDA compute capability of 6.1. (Apparently the builds for Arch are compatible with Ubuntu 20.04 as well)
 
 
 
