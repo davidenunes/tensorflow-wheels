@@ -2,9 +2,9 @@
 Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets. Most builds have a minimum of CUDA compute capability of 6.1. (Apparently the builds for Arch are compatible with Ubuntu 20.04 as well)
 
 
-
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
+| 2.3 |GPU|   3.8  |11 | 8 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
 | 2.2 |GPU|   3.8  |10.2| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
 | 2.2rc2 |GPU|   3.7  |10.2| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.0.rc2.cp37.c72.gpu/tensorflow-2.2.0rc2-cp37-cp37m-linux_x86_64.whl)|
 | 2.1 |GPU|   3.7  |10.2| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.c72.gpu/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
