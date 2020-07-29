@@ -27,6 +27,7 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
+| 2.3 |GPU CUDA Compute 5.0 |   3.8  | 11 | 8 | SSE, AVX, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu.compute.5/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
 | 2.2 |GPU CUDA Compute 5.0 |   3.8  | 10.2 | 7.6 | SSE, AVX, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu.cuda5/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
 | 2.1 |CPU / amdfam10 |   3.7  | _ | _ | SSE, AVX, FMA, XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.cpu.amdfam10/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.14.1 |CPU / amdfam10 |   3.6  |_| _ | XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.14.1.cp36.cpu.amdfam10/tensorflow-1.14.1-cp36-cp36m-linux_x86_64.whl)|
