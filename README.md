@@ -1,3 +1,8 @@
+## Buy me a coffee
+If you find any of this useful, consider being my [sponsor](https://github.com/sponsors/davidenunes). I really appreciate it, or get me some coffee, coffee is great!
+<br/><br/>
+<a href='https://ko-fi.com/Y8Y0RZO6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 # Tensorflow Wheels
 Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets. Most builds have a minimum of CUDA compute capability of 6.1. (Apparently the builds for Arch are compatible with Ubuntu 20.04 as well)
 
@@ -46,6 +51,5 @@ You can also drop me a line at [@davidelnunes](https://twitter.com/davidelnunes)
 
 ## Buy me a coffee
 If you find any of this useful, consider being my [sponsor](https://github.com/sponsors/davidenunes). I really appreciate it, or get me some coffee, coffee is great!
-
 <br/><br/>
 <a href='https://ko-fi.com/Y8Y0RZO6' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
