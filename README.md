@@ -1,4 +1,4 @@
-## Want to sponsor this effort?
+## Find any of this useful?
 If you find any of this useful, consider being my [sponsor](https://github.com/sponsors/davidenunes). I really appreciate it, or get me some coffee, coffee is great! Check out the sponsor tiers or the external links on the sidebar for one time donations.
 
 # Tensorflow Wheels
