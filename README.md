@@ -2,27 +2,29 @@
 If you find any of this useful, consider being my [sponsor](https://github.com/sponsors/davidenunes). I really appreciate it, or get me some coffee, coffee is great! Check out the sponsor tiers or the external links on the sidebar for one time donations.
 
 # Tensorflow Wheels
-Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets. Most builds have a minimum of CUDA compute capability of 6.1. (Apparently the builds for Arch are compatible with Ubuntu 20.04 as well)
+Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets. This means they support SSE4.2 and AVX2 and all the other instructions supported by skylake microarchitecture. Most builds have a minimum of CUDA compute capability of 6.1. 
+
+Although builds are made in Arch Linux, the latest wheel is fully compatible with Ubuntu 20.04, other wheels are compatible with 18.04, which comes with older nvidia drivers. You can check the compatibility between drivers and CUDA in the [CUDA Driver section](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
 
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
-| 2.3 |GPU|   3.8  |11 | 8 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
-| 2.2 |GPU|   3.8  |10.2| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
-| 2.2rc2 |GPU|   3.7  |10.2| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.0.rc2.cp37.c72.gpu/tensorflow-2.2.0rc2-cp37-cp37m-linux_x86_64.whl)|
-| 2.1 |GPU|   3.7  |10.2| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.c72.gpu/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
-| 2.1 |GPU|   3.7  |10.1| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.gpu/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
-| 2.0 |GPU|   3.7  |10.1| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0.cp37.gpu.xla/tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl)|
-| 2.0rc2 |GPU|   3.7  |10.1| 7.6 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0rc2.cp37.gpu.xla/tensorflow-2.0.0rc2-cp37-cp37m-linux_x86_64.whl)|
-| 2.0rc2 |GPU|   3.7  |10.1| 7.6 | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0rc2.cp37.gpu/tensorflow-2.0.0rc2-cp37-cp37m-linux_x86_64.whl)|
-| 1.14 |GPU|   3.7  |10.0| 7.4 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.14.cp37.gpu.xla/tensorflow-1.14.0-cp37-cp37m-linux_x86_64.whl)|
-| 1.13.1 |GPU|   3.7  |10.0| 7.4 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp37.gpu.xla/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
+| 2.3 |GPU|   3.8  |11 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
+| 2.2 |GPU|   3.8  |10.2| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
+| 2.2rc2 |GPU|   3.7  |10.2| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.0.rc2.cp37.c72.gpu/tensorflow-2.2.0rc2-cp37-cp37m-linux_x86_64.whl)|
+| 2.1 |GPU|   3.7  |10.2| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.c72.gpu/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
+| 2.1 |GPU|   3.7  |10.1| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.gpu/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
+| 2.0 |GPU|   3.7  |10.1| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0.cp37.gpu.xla/tensorflow-2.0.0-cp37-cp37m-linux_x86_64.whl)|
+| 2.0rc2 |GPU|   3.7  |10.1| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0rc2.cp37.gpu.xla/tensorflow-2.0.0rc2-cp37-cp37m-linux_x86_64.whl)|
+| 2.0rc2 |GPU|   3.7  |10.1| 7.6 | SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.0rc2.cp37.gpu/tensorflow-2.0.0rc2-cp37-cp37m-linux_x86_64.whl)|
+| 1.14 |GPU|   3.7  |10.0| 7.4 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.14.cp37.gpu.xla/tensorflow-1.14.0-cp37-cp37m-linux_x86_64.whl)|
+| 1.13.1 |GPU|   3.7  |10.0| 7.4 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp37.gpu.xla/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
 | 1.13.1 |CPU|   3.6  |_| _ | _ | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp36.cpu/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
-| 1.13.1 |CPU|   3.6  |_| _ | SSE,AVX,FMA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp26.cpu.ubuntu1804/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
-| 1.13.0 |GPU|   3.7  |10.0| 7.4 | XLA,SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37.gpu.xla/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
-| 1.13.0 |GPU|   3.7  |10.0| 7.4 | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37.gpu/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
-| 1.13.0 |CPU|   3.7  | _ |  _ | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
-| 1.12.0 |GPU|   3.6  | 10.0 |  7.4  | SSE,AVX,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.12.0.cp36/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
+| 1.13.1 |CPU|   3.6  |_| _ | SSE4.X,AVX,AVX2,FMA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp26.cpu.ubuntu1804/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
+| 1.13.0 |GPU|   3.7  |10.0| 7.4 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37.gpu.xla/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
+| 1.13.0 |GPU|   3.7  |10.0| 7.4 | SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37.gpu/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
+| 1.13.0 |CPU|   3.7  | _ |  _ | SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.0.cp37/tensorflow-1.13.0-cp37-cp37m-linux_x86_64.whl)|
+| 1.12.0 |GPU|   3.6  | 10.0 |  7.4  | SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.12.0.cp36/tensorflow-1.12.0-cp36-cp36m-linux_x86_64.whl)|
 
 ## Other builds
 
@@ -30,12 +32,12 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
-| 2.3 |GPU CUDA Compute 5.0 |   3.8  | 11 | 8 | SSE, AVX, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu.compute.5/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
-| 2.2 |GPU CUDA Compute 5.0 |   3.8  | 10.2 | 7.6 | SSE, AVX, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu.cuda5/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
-| 2.1 |CPU / amdfam10 |   3.7  | _ | _ | SSE, AVX, FMA, XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.cpu.amdfam10/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
+| 2.3 |GPU CUDA Compute 5.0 |   3.8  | 11 | 8 | SSE4.X,AVX,AVX2, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu.compute.5/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
+| 2.2 |GPU CUDA Compute 5.0 |   3.8  | 10.2 | 7.6 | SSE4.X,AVX,AVX2, FMA, XLA | Arch Linux x86_64 / Ubuntu 20.04 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu.cuda5/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
+| 2.1 |CPU / amdfam10 |   3.7  | _ | _ | SSE4.X,AVX,AVX2, FMA, XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.1.cp37.cpu.amdfam10/tensorflow-2.1.0-cp37-cp37m-linux_x86_64.whl)|
 | 1.14.1 |CPU / amdfam10 |   3.6  |_| _ | XLA | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.14.1.cp36.cpu.amdfam10/tensorflow-1.14.1-cp36-cp36m-linux_x86_64.whl)|
 | 1.13.1 |CPU / amdfam10 |   3.6  |_| _ | _ | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp36.cpu.amdfam10/tensorflow-1.13.1-cp36-cp36m-linux_x86_64.whl)|
-| 1.13.1 |CPU / skylake-512 |   3.7  | _ | _ | AVX2, FMA, AVX512F | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp37.cpu.skylake-512/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
+| 1.13.1 |CPU / skylake-512 |   3.7  | _ | _ | SSE4.X, FMA, AVX512F | Ubuntu 18.04 x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r1.13.1.cp37.cpu.skylake-512/tensorflow-1.13.1-cp37-cp37m-linux_x86_64.whl)|
 
 
 ## Using Arch Linux?
