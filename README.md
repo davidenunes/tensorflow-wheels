@@ -4,7 +4,7 @@ If you find any of this useful, consider being my [sponsor](https://github.com/s
 # Tensorflow Wheels
 Tensorflow wheels I've been building and using over time. Unless specified, these are built for **skylake** CPUs or equivalent instruction sets. This means they support SSE4.2 and AVX2 and all the other instructions supported by skylake microarchitecture. Most builds have a minimum of CUDA compute capability of 6.1. 
 
-Although builds are made in Arch Linux, the latest wheel is fully compatible with Ubuntu 20.04, other wheels are compatible with 18.04, which comes with older nvidia drivers. You can check the compatibility between drivers and CUDA in the [CUDA Driver section](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
+Although builds are made in Arch Linux, the latest wheel is fully compatible with Ubuntu 20.04, other wheels are compatible with 18.04, which comes with older nvidia drivers. You can see the compatibility between drivers and CUDA in the [CUDA Driver section](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
 
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
