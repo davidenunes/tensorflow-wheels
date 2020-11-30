@@ -48,9 +48,11 @@ This is a rolling distro, so you might be tempted to always upgrade everything (
 ## Need a different build?
 I'm using this as a repository of TF wheels I'll be using in various projects, if you want a particular build and don't have the reasources to build from sources yourself, open an issue and I'll see if I can help.
 
-Since I'm mostly building on ArchLinux (which is a rolling distro) this might cause some problems for people that are running systems that require older versions of some libraries like glibc. To speed-up the process, if you are requesting a custom build, providing me with a docker image I can use with your exact system requirements is most appreciated 👍
-
 You can also drop me a line at [@davidelnunes](https://twitter.com/davidelnunes)
+
+### Note 
+Since I'm building on a machine with ArchLinux, which is a rolling distro. This means wheels might be compiled with e.g. glibc on a newer version than your current system. To speed-up the process, if you are requesting a custom build, providing a docker image I can use with your exact system requirements is most appreciated 👍
+
 
 ## Buy me a coffee
 If you find any of this useful, consider being my [sponsor](https://github.com/sponsors/davidenunes). I really appreciate it, or get me some coffee, coffee is great!
