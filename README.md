@@ -9,7 +9,7 @@ Although builds are made in Arch Linux, the latest wheel is fully compatible wit
 
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
-| 2.4rc2 |CPU|   3.8  |_ | _ | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.rc2.cp38/tensorflow-2.4.0rc2-cp38-cp38-linux_x86_64.whl)|
+| 2.4rc4 |CPU|   3.8  | 11.1 | 8 | TensorRT, XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.rc4.cp38/tensorflow-2.4.0rc4-cp38-cp38-linux_x86_64.whl)|
 | 2.3 |GPU|   3.8  |11 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
 | 2.2 |GPU|   3.8  |10.2| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.cp38.gpu/tensorflow-2.2.0-cp38-cp38-linux_x86_64.whl)|
 | 2.2rc2 |GPU|   3.7  |10.2| 7.6 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.2.0.rc2.cp37.c72.gpu/tensorflow-2.2.0rc2-cp37-cp37m-linux_x86_64.whl)|
