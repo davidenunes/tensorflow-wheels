@@ -7,9 +7,12 @@ Tensorflow wheels I've been building and using over time. Unless specified, thes
 Although builds are made in Arch Linux, the latest wheel is fully compatible with Ubuntu 20.04 or 20.10 (depending on your glibc version), other wheels are compatible with 18.04, which comes with older nvidia drivers. You can see the compatibility between drivers and CUDA in the [CUDA Driver section](https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html#cuda-major-component-versions)
 
 
+<!--
+| 2.4 |CPU|   3.9  | 11.1 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.cp39.gpu/tensorflow-2.4.0-cp39-cp39-linux_x86_64.whl)| 
+-->
+
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
-<!--| 2.4 |CPU|   3.9  | 11.1 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.cp39.gpu/tensorflow-2.4.0-cp39-cp39-linux_x86_64.whl)|-->
 | 2.4 |CPU|   3.8  | 11.1 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.cp38.gpu/tensorflow-2.4.0-cp38-cp38-linux_x86_64.whl)|
 | 2.4rc4 |CPU|   3.8  | 11.1 | 8 | TensorRT, XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.rc4.cp38/tensorflow-2.4.0rc4-cp38-cp38-linux_x86_64.whl)|
 | 2.3 |GPU|   3.8  |11 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.3.cp38.gpu/tensorflow-2.3.0-cp38-cp38-linux_x86_64.whl)|
