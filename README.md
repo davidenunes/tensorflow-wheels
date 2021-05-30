@@ -11,8 +11,11 @@ Although builds are made in Arch Linux, the latest wheel is fully compatible wit
 | 2.4 |CPU|   3.9  | 11.1 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.cp39.gpu/tensorflow-2.4.0-cp39-cp39-linux_x86_64.whl)| 
 -->
 
+
+
 | TF | HW |Python | CUDA | cuDNN | Support | OS | Download |
 |:------:|:------:|:------:|:----:|:-------:|:-----:|:------------:|:------:|
+| 2.5.0 |GPU|   3.9  | 11 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.5.0.cp39.gpu/tensorflow-2.5.0-cp39-cp39-linux_x86_64.whl)|
 | 2.5.0rc3 |GPU|   3.9  | 11 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.5.0.rc3.cp39.gpu/tensorflow-2.5.0rc3-cp39-cp39-linux_x86_64.whl)|
 | 2.4.1 |CPU|   3.9  | - | - | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.1.cp39/tensorflow-2.4.1-cp39-cp39-linux_x86_64.whl)|
 | 2.4.1 |GPU|   3.8  | 11.1 | 8 | XLA,SSE4.X,AVX,AVX2,FMA | Arch Linux x86_64 |[**Download**](https://github.com/davidenunes/tensorflow-wheels/releases/download/r2.4.1.cp38.gpu/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl)|
